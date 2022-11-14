@@ -66,18 +66,8 @@ MediaPipe generates 3D landmarks for the human whole body and face, and Unity3D 
 </div>
 
 
-# Donation
-Do you want to support me in this project? :D
-
-<p align="left">
-  <a href="https://ko-fi.com/danialkord">
-  <img src="https://raw.githubusercontent.com/SMotlaq/LoRa/master/bmc.png" width="200" alt="Buy me a Coffee"/>
-  </a>
-</p>
-
-
 <!-- GETTING STARTED -->
-## Installation
+# Installation
 Follow the instructions to run the program!
 ### Backend server installtion
 1. Install MediaPipe python.
@@ -229,14 +219,4 @@ Follow these steps to add your character:
 ### 3D Characters
 [Unity-chan model](https://unity-chan.com/contents/license_en/) & [mixamo models](https://www.mixamo.com)
 
-
-
-<!-- CONTACT -->
-# Contact
-Danial Kordmodanlou - [kordmodanloo@gmail.com](mailto:kordmodanloo@gmail.com)
-
-Website : [danial-kord.me/](https://danial-kord.me/) 
-
-Project Link: [github.com/Danial-Kord/DigiHuman](https://github.com/Danial-Kord/DigiHuman)
-
-Telegram ID: [@Danial_km](https://t.me/Danial_km)
+---

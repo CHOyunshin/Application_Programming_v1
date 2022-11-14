@@ -97,9 +97,6 @@ def GauGanRunner(output_color_file):
         print(static_image_location)
     return  static_image_location
 
-
-
-
 #for round robin process
 def process_queue():
     while True:
@@ -117,11 +114,7 @@ def process_queue():
             calculate_video_pose_estimation(file_name)
             print("process {} finished".format(file_name))
 
-
-
 app = Flask(__name__)
-
-
 # filename = path to video, json_array_len= how many frames data should be sent per request
 def calculate_video_pose_estimation(file_name):
     print()
@@ -160,10 +153,6 @@ def calculate_video_full_pose_estimation(file_name):
         full_pose_video_data[file_name].append(i)
     full_pose_video_data_statues[file_name] = True #means process is finished
     # return pose_estimator.Pose_Video(file_name)
-
-
-
-
 
 def calculate_video_mocap_estimation(file_name):
     global face_pose_video_data
@@ -467,21 +456,8 @@ def upload_face_video():
                 return "Oops!"
         return 'file uploaded successfully'
 
-
-
-
 def run_server():
     app.run(debug=True)
-
-
-
-
-
-
-
-
-
-
 
 
 def exit_handler():
